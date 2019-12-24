@@ -1,7 +1,6 @@
 {
   "version": 2,
   "routes": [
-  	{"src": "/(.*)","dest": "
-       $data = file_get_contents('https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub$1"}
+  	{"src": "/(.*)","dest": "https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub$1"}
   ]
 }
